@@ -1,0 +1,18 @@
+{
+  "name": "claude-intercept",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "request-logger": "tsx proxy.ts",
+    "start": "tsx proxy.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@clack/prompts": "^1.7.0",
+    "tsx": "^4.19.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "vitest": "^3.2.3"
+  }
+}
